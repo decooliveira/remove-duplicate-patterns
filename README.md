@@ -1,5 +1,3 @@
-Hi Fenghua
-
 
 
 # The approach to remove duplicate patterns in a string
