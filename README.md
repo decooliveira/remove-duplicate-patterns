@@ -8,7 +8,7 @@ Remove duplicate patterns in a string
 3. Enque all the substrings. This way I can make sure that the larger ones would be processed first in the next steps
 4. Remove repeated substrings that are adjacent in the original string
 
-
+The steps above are started in the findSubstrings(String param) method.
 Method removeRepeatedSequences(String sequence, String substring)
 
 This method receives two arguments. The first one is the original string and the second one is the substring to be removed if is repeated.
@@ -20,4 +20,4 @@ If both halves contain the substring and if first half end with substring while 
 Then the substring is removed from the second half. Now, both halves are combined into a string builder. This resulting string is returned to 
 calling method and the process repeats until the end.
 
-THe result is printed in the terminal.
+The result is printed in the terminal.
