@@ -78,7 +78,7 @@ public class Solution {
 
                 sb.append(firstHalf);
 
-                if (firstHalf.contains(substring) && firstHalf.endsWith(substring)) {
+                if (firstHalf.contains(substring) && firstHalf.endsWith(substring) && secondHalf.startsWith(substring)) {
                     secondHalf = secondHalf.replaceFirst(substring, "");
                 }
 
